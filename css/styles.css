@@ -1,0 +1,172 @@
+/***************** css for html elements*******************/
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/****************** css for classes and id's******************/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #FF4C68;
+  height: 300px;
+  font-family: "Montserrat";
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+#footer {
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 30px auto 2px;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+/* headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* header-title image */
+.title-img {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* fonts and fonts awesome */
+.features-p {
+  color: #8f8f8f;
+}
+
+.fas-1 {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.fas-1:hover {
+  color: #ff4c68;
+}
+
+/* testimonials image */
+.testimonials-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.card-group {
+  width: 100%;
+  margin: 8px auto 10px;
+}
+
+.card {
+  width: 100%;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.fa-2 {
+  padding: 10px 10px 40px 10px;
+}
+
+
+/* blend mode */
